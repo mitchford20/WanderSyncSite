@@ -36,7 +36,7 @@ function Contributors() {
     },
     { 
       name: 'Rayan Castilla Zouine', 
-      role: 'Frontend Developer/ Website Lead :)', 
+      role: 'Frontend Developer', 
       image: './rayan.png',
       bio: 'Franks skills in DevOps have streamlined WanderSyncs development pipeline and improved overall system stability.'
     },
