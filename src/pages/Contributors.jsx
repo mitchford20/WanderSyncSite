@@ -13,7 +13,7 @@ function Contributors() {
     { 
       name: 'Arish Virani', 
       role: 'Backend Developer', 
-      image: './placeholder.svg?height=150&width=150&text=BS',
+      image: './arish.png?height=150&width=150&text=BS',
       bio: 'Bob is an expert in scalable backend architectures and has contributed significantly to WanderSyncs robust server infrastructure.'
     },
     { 
