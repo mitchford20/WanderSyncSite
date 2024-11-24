@@ -2,7 +2,7 @@
   "name": "wandersyncsite",
   "private": false,
   "version": "0.0.0",
-  "homepage": "https://mitchford20.github.io/WanderSyncSite/",
+  "homepage": "https://mitchford20.github.io/WanderSyncSite/src/main.jsx",
   "type": "module",
   "scripts": {
     "dev": "vite",
