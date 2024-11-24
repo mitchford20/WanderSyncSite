@@ -11,22 +11,22 @@ function Design() {
     {
       title: "System Architecture",
       description: "This diagram illustrates the overall system architecture of WanderSync, showcasing how different components interact to provide a seamless travel planning experience.",
-      image: "/domainmodel.png?height=400&width=600&text=Domain Model"
+      image: "./domainmodel.png?height=400&width=600&text=Domain Model"
     },
     {
       title: "Data Flow",
       description: "The data flow diagram demonstrates how information moves through WanderSync, from user input to storage and retrieval, ensuring efficient data management.",
-      image: "/bigdcd.png?height=400&width=600&text=Design Class Diagram"
+      image: "./bigdcd.png?height=400&width=600&text=Design Class Diagram"
     },
     {
       title: "Class Diagram",
       description: "Our class diagram outlines the structure of WanderSync's object-oriented design, showing the relationships between key classes such as User, Itinerary, and TravelActivity.",
-      image: "/SDfordcd.png?height=400&width=600&text=Sequence Diagram 1"
+      image: "./SDfordcd.png?height=400&width=600&text=Sequence Diagram 1"
     },
     {
       title: "Sequence Diagram",
       description: "This sequence diagram visualizes the interactions between different objects in WanderSync during a typical user session, helping to understand the system's behavior over time.",
-      image: "/othersd.png?height=400&width=600&text=Sequence Diagram 2"
+      image: "./othersd.png?height=400&width=600&text=Sequence Diagram 2"
     }
   ];
 

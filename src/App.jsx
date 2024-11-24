@@ -17,12 +17,12 @@ function App() {
         <Header />
         <main className="flex-grow container mx-auto px-4 py-8 flex flex-col">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/design" element={<Design />} />
-            <Route path="/ui" element={<UserInterface />} />
-            <Route path="/functionality" element={<Functionality />} />
-            <Route path="/conclusions" element={<Conclusions />} />
-            <Route path="/contributors" element={<Contributors />} />
+            <Route path="/WanderSyncSite/" element={<Home />} />
+            <Route path="/WanderSyncSite/design" element={<Design />} />
+            <Route path="/WanderSyncSite/ui" element={<UserInterface />} />
+            <Route path="/WanderSyncSite/functionality" element={<Functionality />} />
+            <Route path="/WanderSyncSite/conclusions" element={<Conclusions />} />
+            <Route path="/WanderSyncSite/contributors" element={<Contributors />} />
           </Routes>
         </main>
         <Footer />
