@@ -15,7 +15,7 @@ function Home() {
           Whether you're a solo adventurer or planning a group getaway, WanderSync provides the perfect balance of flexibility and organization to make your travel dreams a reality.
         </p>
       </div>
-      <img src="/wander.png" alt="WanderSync App Screenshot" className="rounded-lg shadow-md transition-transform duration-300 hover:scale-105" />
+      <img src="./wander.png" alt="WanderSync App Screenshot" className="rounded-lg shadow-md transition-transform duration-300 hover:scale-105" />
     </div>
   );
 }
