@@ -5,12 +5,12 @@ function Header() {
   const location = useLocation();
 
   const navItems = [
-    { path: '/', label: 'Home' },
-    { path: '/design', label: 'Design & Architecture' },
-    { path: '/ui', label: 'User Interface' },
-    { path: '/functionality', label: 'Functionality' },
-    { path: '/conclusions', label: 'Conclusions' },
-    { path: '/contributors', label: 'Contributors' },
+    { path: '/WanderSyncSite/', label: 'Home' },
+    { path: '/WanderSyncSite/design', label: 'Design & Architecture' },
+    { path: '/WanderSyncSite/ui', label: 'User Interface' },
+    { path: '/WanderSyncSite/functionality', label: 'Functionality' },
+    { path: '/WanderSyncSite/conclusions', label: 'Conclusions' },
+    { path: '/WanderSyncSite/contributors', label: 'Contributors' },
   ];
 
   return (
