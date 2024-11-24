@@ -7,7 +7,7 @@ function Contributors() {
     { 
       name: 'Rafay Hadi', 
       role: 'Project Lead/ Backend Lead', 
-      image: '/placeholder.svg?height=150&width=150&text=AJ',
+      image: '/rafay.png',
       bio: 'Alice has over 10 years of experience in project management and has led numerous successful software development projects.'
     },
     { 
