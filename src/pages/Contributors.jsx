@@ -30,13 +30,13 @@ function Contributors() {
     },
     { 
       name: 'Mitchell Ford', 
-      role: 'Fullstack Developer/ Website Designer :)', 
+      role: 'Fullstack Developer/ Website Lead :)', 
       image: './mitch.png',
       bio: 'Evas meticulous approach to quality assurance has ensured that WanderSync maintains high standards of reliability and performance.'
     },
     { 
       name: 'Rayan Castilla Zouine', 
-      role: 'Frontend Developer/ Website Designer :)', 
+      role: 'Frontend Developer/ Website Lead :)', 
       image: './rayan.png',
       bio: 'Franks skills in DevOps have streamlined WanderSyncs development pipeline and improved overall system stability.'
     },
