@@ -18,7 +18,7 @@ function Contributors() {
     },
     { 
       name: 'Muneeb Ali Asif', 
-      role: 'Frontend Developer', 
+      role: 'Frontend Lead', 
       image: './muneeb.png?height=150&width=150&text=CW',
       bio: 'Carols keen eye for design and user experience has been instrumental in creating WanderSyncs intuitive and visually appealing interface.'
     },
