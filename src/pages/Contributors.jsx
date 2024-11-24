@@ -49,14 +49,14 @@ function Contributors() {
   return (
     <div className="space-y-8">
       <h2 className="text-3xl font-bold text-blue-600">Contributors</h2>
-      <p className="text-lg bg-white rounded-lg shadow-md p-6">
+      <p className="text-lg bg-white rounded-lg shadow-md p-6 bg-indigo-200">
         WanderSync was brought to life by a talented and dedicated team of professionals. Each member played a crucial role in making this project a success. Click on a team member to learn more about their contribution.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {contributors.map((contributor, index) => (
           <div 
             key={contributor.name} 
-            className={`bg-white rounded-lg shadow-md p-6 flex flex-col items-center transition-all duration-300 ease-in-out cursor-pointer
+            className={`bg-white rounded-lg shadow-md p-6 flex flex-col items-center transition-all duration-300 ease-in-out cursor-pointer bg-indigo-200
                         ${expandedContributor === index ? 'col-span-1 md:col-span-2 lg:col-span-3 scale-105' : 'hover:scale-105'}`}
             onClick={() => handleContributorClick(index)}
           >
