@@ -12,7 +12,7 @@ import './styles/global.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/WanderSyncSite">
       <div className="flex flex-col min-h-screen bg-baby-blue">
         <Header />
         <main className="flex-grow container mx-auto px-4 py-8 flex flex-col">
@@ -32,4 +32,3 @@ function App() {
 }
 
 export default App;
-
