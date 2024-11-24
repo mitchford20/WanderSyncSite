@@ -35,7 +35,7 @@ function Contributors() {
       bio: 'Evas meticulous approach to quality assurance has ensured that WanderSync maintains high standards of reliability and performance.'
     },
     { 
-      name: 'Rayan Castilla', 
+      name: 'Rayan Castilla Zouine', 
       role: 'Frontend Developer/ Website Designer :)', 
       image: './rayan.png',
       bio: 'Franks skills in DevOps have streamlined WanderSyncs development pipeline and improved overall system stability.'
