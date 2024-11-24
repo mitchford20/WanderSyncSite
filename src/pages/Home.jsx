@@ -6,13 +6,13 @@ function Home() {
       <h1 className="text-4xl font-bold text-blue-600">WanderSync: A Collaborative Travel Management System</h1>
       <div className="rounded-lg shadow-md p-6 max-w-3xl bg-indigo-200">
         <p className="text-lg mb-4">
-          Welcome to WanderSync, an innovative solution designed to streamline the process of creating and managing travel itineraries for both solo and group travel.
+          Welcome to WanderSync, your easy-to-use tool for planning and managing trips. Whether you're traveling alone or with a group, WanderSync helps you create and organize your travel plans.
         </p>
         <p className="mb-4">
-          WanderSync revolutionizes the way you plan and experience your journeys. Our platform offers intuitive tools for itinerary creation, real-time collaboration with travel companions, and seamless integration with popular travel services.
+          From choosing destinations to booking accommodations and making dining reservations, WanderSync makes the whole process simple and enjoyable
         </p>
         <p>
-          Whether you're a solo adventurer or planning a group getaway, WanderSync provides the perfect balance of flexibility and organization to make your travel dreams a reality.
+          Our goal is to empower travelers to focus more on the excitement of their journey and less on the logistical challenges.
         </p>
       </div>
       <img src="./wander.png" alt="WanderSync App Screenshot" className="rounded-lg shadow-md transition-transform duration-300 hover:scale-105" />
