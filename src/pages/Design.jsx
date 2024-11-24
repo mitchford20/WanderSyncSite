@@ -33,7 +33,7 @@ function Design() {
   return (
     <div className="flex flex-col space-y-8">
       <h2 className="text-3xl font-bold text-blue-600">Design & Architecture</h2>
-      <div className="bg-white rounded-lg shadow-md p-6 bg-indigo-200">
+      <div className="rounded-lg shadow-md p-6 bg-indigo-200">
         <h3 className="text-xl font-semibold mb-4 ">Architectural Overview</h3>
         <p className="mb-4">
           WanderSync is built on a modern, scalable architecture that leverages microservices and cloud technologies to ensure high performance and reliability.
@@ -42,7 +42,7 @@ function Design() {
           Our system is designed with a focus on modularity, allowing for easy updates and feature additions without disrupting the core functionality.
         </p>
       </div>
-      <div className="bg-white rounded-lg shadow-md p-6 bg-indigo-200">
+      <div className="rounded-lg shadow-md p-6 bg-indigo-200">
         <h3 className="text-xl font-semibold mb-4">Key Design Patterns</h3>
         <ul className="list-disc list-inside space-y-2">
           <li>Model-View-Controller (MVC) for clear separation of concerns</li>
@@ -54,7 +54,7 @@ function Design() {
       {diagrams.map((diagram, index) => (
         <div key={index} className="flex">
           <div className="relative flex-shrink-0">
-            <div className="bg-gray-100 p-4 rounded-lg shadow-inner w-full max-w-2xl bg-indigo-200">
+            <div className="p-4 rounded-lg shadow-inner w-full max-w-2xl bg-indigo-200">
               <img 
                 src={diagram.image}
                 alt={diagram.title}
@@ -63,8 +63,8 @@ function Design() {
               />
             </div>
             <div 
-              className={`absolute top-0 left-full ml-4 bg-white p-4 rounded-lg shadow-md transition-all duration-300 ease-in-out bg-indigo-200 ${
-                activeDescription === index ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-full pointer-events-none'
+              className={`absolute top-0 left-full ml-4 p-4 rounded-lg shadow-md transition-all duration-300 ease-in-out bg-indigo-200 ${
+                activeDescription === index ? 'opacity-100 translate-x-50' : 'opacity-0 -translate-x-full pointer-events-none'
               }`}
               style={{ width: '300px' }}
             >

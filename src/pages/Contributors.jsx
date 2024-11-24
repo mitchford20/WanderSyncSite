@@ -25,7 +25,7 @@ function Contributors() {
     { 
       name: 'SaiBalaji Nagarajan', 
       role: 'Frontend Developer/ SCRUM Master', 
-      image: '/placeholder.svg?height=150&width=150&text=DB',
+      image: '/saibalaji.png?height=150&width=150&text=DB',
       bio: 'Davids expertise in modern frontend frameworks has enabled WanderSync to deliver a smooth and responsive user experience.'
     },
     { 
@@ -37,7 +37,7 @@ function Contributors() {
     { 
       name: 'Rayan Castilla', 
       role: 'Frontend Developer', 
-      image: '/placeholder.svg?height=150&width=150&text=FL',
+      image: '/rayan.png',
       bio: 'Franks skills in DevOps have streamlined WanderSyncs development pipeline and improved overall system stability.'
     },
   ];
@@ -49,14 +49,14 @@ function Contributors() {
   return (
     <div className="space-y-8">
       <h2 className="text-3xl font-bold text-blue-600">Contributors</h2>
-      <p className="text-lg bg-white rounded-lg shadow-md p-6 bg-indigo-200">
+      <p className="text-lg rounded-lg shadow-md p-6 bg-indigo-200">
         WanderSync was brought to life by a talented and dedicated team of professionals. Each member played a crucial role in making this project a success. Click on a team member to learn more about their contribution.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {contributors.map((contributor, index) => (
           <div 
             key={contributor.name} 
-            className={`bg-white rounded-lg shadow-md p-6 flex flex-col items-center transition-all duration-300 ease-in-out cursor-pointer bg-indigo-200
+            className={`rounded-lg shadow-md p-6 flex flex-col items-center transition-all duration-300 ease-in-out cursor-pointer bg-indigo-200
                         ${expandedContributor === index ? 'col-span-1 md:col-span-2 lg:col-span-3 scale-105' : 'hover:scale-105'}`}
             onClick={() => handleContributorClick(index)}
           >
