@@ -9,23 +9,23 @@ function Design() {
 
   const diagrams = [
     {
-      title: "System Architecture",
-      description: "This diagram illustrates the overall system architecture of WanderSync, showcasing how different components interact to provide a seamless travel planning experience.",
+      title: "Domain Model",
+      description: "This diagram was made in the earlier stages of developing the application, playing a key role in helping our group visualize connections between classes at a core level.",
       image: "./domainmodel.png?height=400&width=600&text=Domain Model"
     },
     {
-      title: "Data Flow",
-      description: "The data flow diagram demonstrates how information moves through WanderSync, from user input to storage and retrieval, ensuring efficient data management.",
+      title: "Design Class Diagram",
+      description: "This diagram essentially offers a detailed overlook of our app's development, displaying how all classes, except activities, connect with each other that allow WanderSync to function smoothly. If you take a closer look, you'll notice what methods and variables in particular are shared between each classes.",
       image: "./bigdcd.png?height=400&width=600&text=Design Class Diagram"
     },
     {
-      title: "Class Diagram",
-      description: "Our class diagram outlines the structure of WanderSync's object-oriented design, showing the relationships between key classes such as User, Itinerary, and TravelActivity.",
+      title: "Sequence Diagram #1",
+      description: "This sequence diagram shows a use case for a given user's experience in logging in their travels and destination. At the bottom of the of the diagram, you can see the two possible outcomes of attempting to log destinations, which are based on a number of factors.",
       image: "./SDfordcd.png?height=400&width=600&text=Sequence Diagram 1"
     },
     {
-      title: "Sequence Diagram",
-      description: "This sequence diagram visualizes the interactions between different objects in WanderSync during a typical user session, helping to understand the system's behavior over time.",
+      title: "Sequence Diagram #2",
+      description: "The second, simpler sequence diagram presents the process a user goes through in logging into WanderSync, with two possible outcomes that determine if the user logs in successfully, or receives an error message.",
       image: "./othersd.png?height=400&width=600&text=Sequence Diagram 2"
     }
   ];
@@ -36,19 +36,22 @@ function Design() {
       <div className="rounded-lg shadow-md p-6 bg-indigo-200">
         <h3 className="text-xl font-semibold mb-4 ">Architectural Overview</h3>
         <p className="mb-4">
-          WanderSync is built on a modern, scalable architecture that leverages microservices and cloud technologies to ensure high performance and reliability.
+          Model-View-ViewModel(MVVM) architecture is the backbone of this app's development. Model classes include the categorization of the menu, such as destination and accommodation, whereas View includes the activities and the ViewModel holds database management and other backend components that connect the View and Model together. 
         </p>
-        <p>
-          Our system is designed with a focus on modularity, allowing for easy updates and feature additions without disrupting the core functionality.
+        <p className="mb-4">
+        The application utilizes the Strategy, Observer, and Singleton design patterns to enhance flexibility and maintainability. The Strategy Pattern allows WanderSync to switch between different algorithms for sorting travel destinations, the Observer Pattern enables real-time updates across user interfaces when itinerary data changes, and the Singleton Pattern ensures a single instance of the database manager is used throughout the app.
+        </p>
+        <p className="mb-4">
+        WanderSync adheres to SOLID GRASP principles by ensuring high cohesion and low coupling. High cohesion is achieved by having each module focus on a single responsibility, and low coupling is maintained by minimizing dependencies between modules, allowing for easier maintenance and scalability.
         </p>
       </div>
       <div className="rounded-lg shadow-md p-6 bg-indigo-200">
-        <h3 className="text-xl font-semibold mb-4">Key Design Patterns</h3>
+        <h3 className="text-xl font-semibold mb-4">Key Design Components</h3>
         <ul className="list-disc list-inside space-y-2">
-          <li>Model-View-Controller (MVC) for clear separation of concerns</li>
-          <li>Observer pattern for real-time updates across collaborators</li>
-          <li>Factory method for flexible itinerary item creation</li>
-          <li>Strategy pattern for customizable travel planning algorithms</li>
+          <li>Domain Model - Facilitated planning</li>
+          <li>Design Class Diagram(DCD) - Displays all connections between essential classes and functionalities</li>
+          <li>Sequence Diagram #1 - Use case for users logging destinations</li>
+          <li>Sequence Diagram #2 - Use case for users' login</li>
         </ul>
       </div>
       {diagrams.map((diagram, index) => (
