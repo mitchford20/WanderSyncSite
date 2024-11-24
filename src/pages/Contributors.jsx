@@ -5,38 +5,38 @@ function Contributors() {
 
   const contributors = [
     { 
-      name: 'Alice Johnson', 
-      role: 'Project Lead', 
+      name: 'Rafay Hadi', 
+      role: 'Project Lead/ Backend Lead', 
       image: '/placeholder.svg?height=150&width=150&text=AJ',
       bio: 'Alice has over 10 years of experience in project management and has led numerous successful software development projects.'
     },
     { 
-      name: 'Bob Smith', 
+      name: 'Arish Virani', 
       role: 'Backend Developer', 
       image: '/placeholder.svg?height=150&width=150&text=BS',
       bio: 'Bob is an expert in scalable backend architectures and has contributed significantly to WanderSyncs robust server infrastructure.'
     },
     { 
-      name: 'Carol Williams', 
-      role: 'UI/UX Designer', 
+      name: 'Muneeb Ali Asif', 
+      role: 'Frontend Developer', 
       image: '/placeholder.svg?height=150&width=150&text=CW',
       bio: 'Carols keen eye for design and user experience has been instrumental in creating WanderSyncs intuitive and visually appealing interface.'
     },
     { 
-      name: 'David Brown', 
-      role: 'Frontend Developer', 
+      name: 'SaiBalaji Nagarajan', 
+      role: 'Frontend Developer/ SCRUM Master', 
       image: '/placeholder.svg?height=150&width=150&text=DB',
       bio: 'Davids expertise in modern frontend frameworks has enabled WanderSync to deliver a smooth and responsive user experience.'
     },
     { 
-      name: 'Eva Martinez', 
-      role: 'QA Engineer', 
+      name: 'Mitchell Ford', 
+      role: 'Fullstack Developer', 
       image: '/placeholder.svg?height=150&width=150&text=EM',
       bio: 'Evas meticulous approach to quality assurance has ensured that WanderSync maintains high standards of reliability and performance.'
     },
     { 
-      name: 'Frank Lee', 
-      role: 'DevOps Engineer', 
+      name: 'Rayan Castilla', 
+      role: 'Frontend Developer', 
       image: '/placeholder.svg?height=150&width=150&text=FL',
       bio: 'Franks skills in DevOps have streamlined WanderSyncs development pipeline and improved overall system stability.'
     },
