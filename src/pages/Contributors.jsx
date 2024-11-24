@@ -31,7 +31,7 @@ function Contributors() {
     { 
       name: 'Mitchell Ford', 
       role: 'Fullstack Developer', 
-      image: '/placeholder.svg?height=150&width=150&text=EM',
+      image: '/mitch.png',
       bio: 'Evas meticulous approach to quality assurance has ensured that WanderSync maintains high standards of reliability and performance.'
     },
     { 
