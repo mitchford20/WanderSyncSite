@@ -5,8 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        'baby-blue': 'var(--background-color)',
+      },
+    },
   },
-  plugins: ['@tailwindcss/aspect-ratio'],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
-
