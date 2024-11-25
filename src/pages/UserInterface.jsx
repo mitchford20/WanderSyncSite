@@ -30,12 +30,12 @@ function UserInterface() {
   }, []);
 
   const uiFeatures = [
-    { title: "Dashboard", description: "Centralized view of all your travel plans and activities.", imageName: "arish.png" },
-    { title: "Itinerary Planner", description: "Drag-and-drop interface for easy trip scheduling.", imageName: "muneeb.png" },
-    { title: "Collaboration Tools", description: "Real-time editing and commenting for group trips.", imageName: "rafay.png" },
-    { title: "Budget Tracker", description: "Visual breakdown of expenses and spending limits.", imageName: "mitch.png" },
-    { title: "Map Integration", description: "Interactive maps with points of interest and routes.", imageName: "rayan.png" },
-    { title: "Mobile Responsiveness", description: "Seamless experience across devices of all sizes.", imageName: "saibalaji.png" }
+    { title: "Login Page", description: "Among the first pages that the users see to either enter their login info or to create an account.", imageName: "loginpage.png" },
+    { title: "Logistics Page", description: "This page displays the vital logistics that allows the user to visualize their trip days. Moreover, they can invite contributors and add notes. ", imageName: "logisticspage.png" },
+    { title: "Destinations Page", description: "This page is the most crucial, allowing users to log their travels onto their agenda, with calculation vacation time being installed.", imageName: "destinationspage.png" },
+    { title: "Dining Establishments Page", description: "This page displays the dining options and restaurants that users can find in the destination they wish to go to.", imageName: "diningestablishments.png" },
+    { title: "Accommodations Page", description: "The accommodations page will allow the user to go more into detail with their travel plans, placing check-in and check-out dates along with hotel bookings.", imageName: "accommodations.png" },
+    { title: "Travel Communities Page", description: "This is our social media aspect of our page, in which users can form communities in our application, whether with friend groups or strangers, to plan out travels with others.", imageName: "travelcommunity.png" }
   ];
 
   return (
