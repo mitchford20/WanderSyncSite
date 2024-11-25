@@ -25,7 +25,7 @@ function Functionality() {
     <div className="flex flex-col h-full space-y-8">
       <h2 className="text-3xl font-bold text-blue-600">Functionality</h2>
       <p className="text-lg rounded-lg shadow-md p-6 bg-indigo-200">
-        Experience the power of WanderSync through our comprehensive video demonstration. See how our features come together to create a seamless travel planning experience.
+        This video demo of WanderSync, made by none other than Sai himself, will guide you through our app's simple, yet useful, functionalities. 
       </p>
       <div ref={videoContainerRef} className="flex-grow w-full max-w-6xl mx-auto rounded-lg overflow-hidden shadow-lg bg-indigo-200">
       <iframe
