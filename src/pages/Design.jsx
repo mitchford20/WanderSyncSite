@@ -47,12 +47,13 @@ function Design() {
       </div>
       <div className="rounded-lg shadow-md p-6 bg-indigo-200">
         <h3 className="text-xl font-semibold mb-4">Key Design Components</h3>
-        <ul className="list-disc list-inside space-y-2">
+        <ul className="list-disc list-inside space-y-2 mb-10">
           <li>Domain Model - Facilitated planning</li>
           <li>Design Class Diagram(DCD) - Displays all connections between essential classes and functionalities</li>
           <li>Sequence Diagram #1 - Use case for users logging destinations</li>
           <li>Sequence Diagram #2 - Use case for users' login</li>
         </ul>
+        <b className='text-xl'>Click on each diagram below to learn more!</b>
       </div>
       {diagrams.map((diagram, index) => (
         <div key={index} className="flex">
