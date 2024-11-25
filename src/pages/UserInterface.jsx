@@ -31,7 +31,7 @@ function UserInterface() {
     <div className="space-y-8">
       <h2 className="text-3xl font-bold text-blue-600">User Interface</h2>
       <p className="text-lg rounded-lg shadow-md p-6 bg-indigo-200">
-        WanderSync's user interface is designed with simplicity and efficiency in mind. Our intuitive layout and smooth interactions make travel planning a breeze for users of all experience levels.
+        WanderSync's user interface is user-friendly and simple to navigate through, allowing all users to make and organize their travel plans with no difficulty whatsoever.
       </p>
       <div className="space-y-16">
         {[1, 2, 3, 4].map((index) => (

@@ -8,37 +8,37 @@ function Contributors() {
       name: 'Rafay Hadi', 
       role: 'Project Lead/ Backend Lead', 
       image: './rafay.png',
-      bio: 'Alice has over 10 years of experience in project management and has led numerous successful software development projects.'
+      bio: 'Rafay always made sure that the team members stayed intact with their due assignments and is responsible for leading the development the backend, including Firebase.'
     },
     { 
       name: 'Arish Virani', 
       role: 'Backend Developer', 
       image: './arish.png?height=150&width=150&text=BS',
-      bio: 'Bob is an expert in scalable backend architectures and has contributed significantly to WanderSyncs robust server infrastructure.'
+      bio: 'Arish made significant contributions to WanderSync, especially in the backend and making the necessary submissions for each sprint throughout the semester.'
     },
     { 
       name: 'Muneeb Ali Asif', 
       role: 'Frontend Lead', 
       image: './muneeb.png?height=150&width=150&text=CW',
-      bio: 'Carols keen eye for design and user experience has been instrumental in creating WanderSyncs intuitive and visually appealing interface.'
+      bio: 'Muneeb held the leading role for the eye-pleasing UI of WanderSync. He made the decisions to take extra steps in making sure that the app actually looks good.'
     },
     { 
       name: 'SaiBalaji Nagarajan', 
-      role: 'Frontend Developer/ SCRUM Master', 
+      role: 'Frontend Developer / SCRUM Master', 
       image: './saibalaji.png?height=150&width=150&text=DB',
-      bio: 'Davids expertise in modern frontend frameworks has enabled WanderSync to deliver a smooth and responsive user experience.'
+      bio: 'Sai not only contributed heavily to the frontend, but also played a key role in communication. He also dealt with other issues in WanderSync outside of frontend.'
     },
     { 
       name: 'Mitchell Ford', 
-      role: 'Fullstack Developer/ Website Lead :)', 
+      role: 'Fullstack Developer / Website Lead :)', 
       image: './mitch.png',
-      bio: 'Evas meticulous approach to quality assurance has ensured that WanderSync maintains high standards of reliability and performance.'
+      bio: 'Mitch remained consistent in developing both the frontend and backend of WanderSync. He also contributed to the making of diagrams and led the development of this very website.'
     },
     { 
       name: 'Rayan Castilla Zouine', 
-      role: 'Frontend Developer', 
+      role: 'Frontend Developer / Website developer', 
       image: './rayan.png',
-      bio: 'Franks skills in DevOps have streamlined WanderSyncs development pipeline and improved overall system stability.'
+      bio: 'Rayan laid out base components for the frontend of WanderSync and made large contributions with Mitch in the making of all diagrams. He also contributed largely to this website'
     },
   ];
 
@@ -50,7 +50,10 @@ function Contributors() {
     <div className="space-y-8">
       <h2 className="text-3xl font-bold text-blue-600">Contributors</h2>
       <p className="text-lg rounded-lg shadow-md p-6 bg-indigo-200">
-        WanderSync was brought to life by a talented and dedicated team of professionals. Each member played a crucial role in making this project a success. Click on a team member to learn more about their contribution.
+        WanderSync was brought to life by a group of six second-year CS students at Georgia Tech. Each member played a crucial role in making this project a success. Click on a team member to learn more about their contribution.
+      </p>
+      <p className="text-lg rounded-lg shadow-md p-6 bg-indigo-200">
+        All team members listed contributed each to one website page :)
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {contributors.map((contributor, index) => (
