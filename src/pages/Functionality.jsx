@@ -29,7 +29,7 @@ function Functionality() {
       </p>
       <div ref={videoContainerRef} className="flex-grow w-full max-w-6xl mx-auto rounded-lg overflow-hidden shadow-lg bg-indigo-200">
       <iframe
-          src="https://youtu.be/Ym5FYY4NIv0"
+          src="https://www.youtube.com/embed/Ym5FYY4NIv0"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
